@@ -8,6 +8,7 @@
 		$(document).ready(function() {
 			$('#one').inpAutoGrow()
 			$('#two').inpAutoGrow()
+			$('.multi').inpAutoGrow()
 		})
 		</script>
 		<style type="text/css">
@@ -26,8 +27,18 @@
 	
 	<body>
 		<div id="wrapper">
-			<input type="text" id="one" />
-			<input type="text" id="two" placeholder="well just look how long this default is!" />
+			<p>
+				<input type="text" id="one" />
+			</p>
+			<p>
+				<input type="text" id="two" placeholder="well just look how long this default is!" />
+			</p>
+			<p>
+				<input type="text" class="multi" placeholder="check out this declaration on multiple elements!" />
+			</p>
+			<p>
+				<input type="text" class="multi" placeholder="element number two" />
+			</p>
 		</div>
 
 	</body>
