@@ -12,5 +12,5 @@ Include the javascript in the `<head>` tag of your website.
 
 Usage
 ------
-Call `.inpAutoGrow()` on the element you want to autogrow. Works on both single and multiple element selectors.
+Call `.inpAutoGrow()` on the element you want to autogrow. No options. Works on both single and multiple element selectors.
 Works best with a `placeholder` attribute declared.
